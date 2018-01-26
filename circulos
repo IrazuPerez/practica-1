@@ -1,0 +1,70 @@
+float posX;
+int x = 30;
+int y = 30;
+int a = 30;
+int b = 100;
+int c = 30;
+int d = 170;
+int t = 30;
+int r = 240;
+int w = 30;
+int q = 310;
+int f = 100;
+int g = 30;
+int h = 170;
+int i = 30;
+int j = 240;
+int k = 30;
+int l = 310;
+int m = 30;
+int o = 380;
+int p = 30;
+
+void setup(){
+ size(500,400); 
+ background(30,25,45);
+}  
+
+void draw(){
+  ellipse(x,y,30,30);
+  x = x + 1;
+  y = y + 1;
+  
+    ellipse(a,b,30,30);
+  a = a + 1;
+  b = b + 1;
+  
+    ellipse(c,d,30,30);
+  c = c + 1;
+  d = d + 1;
+  
+    ellipse(f,g,30,30);
+  f = f + 1;
+  g = g + 1;
+  
+   ellipse(h,i,30,30);
+  h = h + 1;
+  i = i + 1;
+  
+    ellipse(j,k,30,30);
+  j = j + 1;
+  k = k + 1;
+  
+    ellipse(l,m,30,30);
+  l = l + 1;
+  m = m + 1;
+  
+    ellipse(o,p,30,30);
+  o = o + 1;
+  p = p + 1;
+  
+    ellipse(t,r,30,30);
+  t = t + 1;
+  r = r + 1;
+  
+    ellipse(w,q,30,30);
+  w = w + 1;
+  q = q + 1;
+  
+  
+}
